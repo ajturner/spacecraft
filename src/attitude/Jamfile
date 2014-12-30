@@ -1,0 +1,29 @@
+###########################################
+# Jamfile for the Attitude level directory
+# 
+# $Author: simpliciter $
+# $Revision: 1.5 $
+# $Date: 2003/12/08 14:48:27 $
+###########################################
+
+SubDir OPENSESSAME_ROOT src attitude ;
+
+Objects Attitude.cpp AttitudeState.cpp ;
+ObjectHdrs Attitude.cpp AttitudeState.cpp : $(OPENSESSAME_HDRS) ;
+
+LibraryFromObjects $(PFXLIB)attitude : Attitude$(SUFOBJ) AttitudeState$(SUFOBJ) ;
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)attitude$(SUFLIB) ;
+#InstallFile $(OPENSESSAME_INCLUDEDIR) : Attitude.h AttitudeState.h ;
+
+
+# /*****************************************************************************
+# *     $Log: Jamfile,v $
+# *     Revision 1.5  2003/12/08 14:48:27  simpliciter
+# *     All new Jamfiles!
+# *
+# *     
+# *
+# *****************************************************************************/
+
+

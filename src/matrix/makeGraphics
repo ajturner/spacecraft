@@ -1,0 +1,21 @@
+#
+#  Sample Make file for  Matrix/Vector/Array Graphics
+#
+#  Note : This appends the graphics routines to the CAM matrix/vector/array
+#         library.
+#   
+CC       = CC
+cc       = cc
+DEFINES  = __STATIC__
+CCFLAGS  =  
+INCLUDES = -I../camgraph 
+LIBRARY  = libcammva.a
+
+.SUFFIXES: .o .cpp .a                # define suffix rules so it knows what to
+                                     # do with .cpp files ...
+$(LIBRARY):  mvagph.o
+	ar ru $(LIBRARY) mvagph.o 
+	rm *.o
+
+.cpp.o :
+	$(CC) $(CCFLAGS) -D$(DEFINES) $(INCLUDES) -c $<

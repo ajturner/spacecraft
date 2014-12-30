@@ -1,0 +1,31 @@
+###########################################
+# Rotation Jamfile
+#
+# $Author: simpliciter $ 
+# $Revision: 1.3 $
+# $Date: 2003/12/08 14:48:27 $
+###########################################
+
+SubDir OPENSESSAME_ROOT src rotation ;
+
+Objects Rotation.cpp ;
+ObjectHdrs Rotation.cpp : $(OPENSESSAME_HDRS) ;
+
+LibraryFromObjects $(PFXLIB)rotation : Rotation.o ;
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)rotation$(SUFLIB) ;
+#InstallFile $(OPENSESSAME_INCLUDEDIR) : Rotation.h ;
+
+
+
+# /*****************************************************************************
+# *     $Log: Jamfile,v $
+# *     Revision 1.3  2003/12/08 14:48:27  simpliciter
+# *     All new Jamfiles!
+# *
+# *     
+# *
+# ******************************************************************************/
+
+
+

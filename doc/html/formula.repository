@@ -1,0 +1,22 @@
+\form#0:$ \bf{q}_i = \hat{e}_i \sin{\frac{\Phi}{2}} q_4 = \cos{\frac{\Phi}{2}} $
+\form#1:$ \bf{q}_i = \frac{2\sigma_i}{1+\sigma^2} q_4 = \frac{1-\sigma^2}{1+\sigma^2} $
+\form#2:$\bf{q'}$
+\form#3:$\bf{q''}$
+\form#4:\[ \begin{bmatrix} q_1 \\ q_2 \\ q_3 \\ q_4 \end{bmatrix} = \begin{bmatrix} q'_1 & q'_4 & -q'_3 & q'_2\\ q'_2 & q'_3 & q'_4 & -q'_1\\ q'_3 & -q'_2 & q'_1 & q'_4\\ q'_4 & -q'_1 & -q'_2 & -q'_3 \end{bmatrix} \begin{bmatrix} q''_1 \\ q''_2 \\ q''_3 \\ q''_4 \end{bmatrix} \]
+\form#5:\[ \begin{bmatrix} q_1 \\ q_2 \\ q_3 \\ q_4 \end{bmatrix} = \begin{bmatrix} -q'_4 & q'_4 & q'_3 & -q'_2\\ -q'_2 & -q'_3 & q'_4 & q'_1\\ -q'_3 & -q'_2 & -q'_1 & q'_4\\ q'_4 & q'_1 & q'_2 & q'_3 \end{bmatrix} \begin{bmatrix} q''_1 \\ q''_2 \\ q''_3 \\ q''_4 \end{bmatrix} \]
+\form#6:\[ \left[\bf{R}] = \begin{bmatrix} e^{2}_1 \Phi + \cos{\phi} & e_1 e_2 \Phi + e_3\sin{\phi} & e_1 e_3 \Phi - e_2\sin{\phi}\\ e_2 e_1 \Phi - e_3\sin{\phi} & e^{2}_2 \Phi + \cos{\phi} & e_2 e_3 \Phi + e_1\sin{\phi}\\ e_3 e_1 \Phi + e_2\sin{\phi} & e_3 e_2 \Phi - e_1\sin{\phi} & e^{2}_3 \Phi + \cos{\phi} \end{bmatrix}\\ where \Phi= 1 - \cos{\phi} (Ref Hughes p.12) \]
+\form#7:\[ \left[\bf{R}\left(\bf{\sigma}\right)\right] = \frac{1}{\left(1+\sigma^2\right)^2} \begin{bmatrix} 4\left(\sigma^{2}_1-\sigma^{2}_2-\sigma^{2}_3\right)+\Sigma^2 & 8\sigma_1\sigma_2+4\sigma_3\Sigma & 8\sigma_1\sigma_3-4\sigma_2\Sigma\\ 8\sigma_2\sigma_1-4\sigma_3\Sigma & 4\left(-\sigma^{2}_1+\sigma^{2}_2-\sigma^{2}_3\right)+\Sigma^2 & 8\sigma_2\sigma_3+4\sigma_1\Sigma 8\sigma_3\sigma_1+4\sigma_2\Sigma & 8\sigma_3\sigma_2-4\sigma_1\Sigma & 4\left(-\sigma^{2}_1-\sigma^{2}_2+\sigma^{2}_3\right)+\Sigma^2 \end{bmatrix}\\ where \Sigma=1-\bf{\sigma}^T\bf{\sigma} \]
+\form#8:\[ \left[\bf{R}\left(\bf{\bar{q}}\right)\right] = \begin{bmatrix} q^{2}_4+q^{2}_1-q^{2}_2-q^{2}_3 & 2\left(q_1 q_2 + q_4 q_3\right) & 2\left(q_1 q_3 - q_4 q_2\right)\\ 2\left(q_1 q_2 - q_4 q_3\right) & q^{2}_4-q^{2}_1+q^{2}_2-q^{2}_3 & 2\left(q_2 q_3 + q_4 q_1\right)\\ 2\left(q_1 q_3 + q_4 q_2\right) & 2\left(q_2 q_3 - q_4 q_1\right) & q^{2}_4-q^{2}_1-q^{2}_2+q^{2}_3 \end{bmatrix} \]
+\form#9:\[ \bf{q} = {\bf{a}}\sin \frac{\Phi}{2} q_4 = \cos \frac{\Phi}{2} {\bf{\bar q}} = \left[{\begin{array}{*{20}c} {\bf{q}} & {q_4 } \\ \end{array}} \right]^T \]
+\form#10:\[ R_1\left(\theta\right) = \begin{bmatrix} 1 & 0 & 0\\ 0 & \cos{\theta} & \sin{\theta}\\ 0 & -\sin{\theta} & \cos{\theta} \end{bmatrix} \]
+\form#11:\[ R_2\left(\theta\right) = \begin{bmatrix} \cos{\theta} & 0 & -\sin{\theta}\\ 0 & 1 & 0\\ \sin{\theta} & 0 & \cos{\theta} \end{bmatrix} \]
+\form#12:\[ R_3\left(\theta\right) = \begin{bmatrix} \cos{\theta} & \sin{\theta} & 0\\ -\sin{\theta} & \cos{\theta} & 0\\ 0 & 0 & 1 \end{bmatrix} \]
+\form#13:$\hat{e}$
+\form#14:$\Phi$
+\form#15:$\theta_i$
+\form#16:$ \bf{\sigma} = \tan{\frac{\phi}{4}}\bf{\hat{e}} $
+\form#17:$\phi \rightarrow \plusminus 360^{\circ}$
+\form#18:$\sigma_i = \frac{\bf{q}_i}{1+q_4}$
+\form#19:\[ \bf{q} = {\bf{a}}\sin \frac{\Phi}{2}\\ q_4 = \cos \frac{\Phi}{2}\\ {\bf{\bar q}} = \left[{\begin{array}{*{20}c} {\bf{q}} & {q_4 } \\ \end{array}} \right]^T \]
+\form#20:$\dot{y} = f\left(t,x\right)$
+\form#21:$f\left(t,x\right)$

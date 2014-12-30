@@ -1,0 +1,29 @@
+###########################################
+# Environment Jamfile
+#
+# $Author: simpliciter $ 
+# $Revision: 1.3 $
+# $Date: 2003/12/08 14:48:27 $
+###########################################
+
+SubDir OPENSESSAME_ROOT src environment ;
+
+Objects Environment.cpp CentralBody$(SLASH)CentralBody.cpp CentralBody$(SLASH)EarthCentralBody.cpp CentralBody$(SLASH)Models$(SLASH)TiltedDipoleMagneticModel.cpp ; 
+ObjectHdrs Environment.cpp CentralBody$(SLASH)CentralBody.cpp CentralBody$(SLASH)EarthCentralBody.cpp CentralBody$(SLASH)Models$(SLASH)TiltedDipoleMagneticModel.cpp : $(OPENSESSAME_HDRS) ; 
+
+LibraryFromObjects $(PFXLIB)environment : Environment$(SUFOBJ) CentralBody$(SLASH)CentralBody$(SUFOBJ) CentralBody$(SLASH)EarthCentralBody$(SUFOBJ) CentralBody$(SLASH)Models$(SLASH)TiltedDipoleMagneticModel$(SUFOBJ) : $(OPENSESSAME_HDRS) ; 
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)environment$(SUFLIB) ;
+#InstallFile $(OPENSESSAME_INCLUDEDIR) : Environment.h CentralBody$(SLASH)CentralBody.h CentralBody$(SLASH)EarthCentralBody.h CentralBody$(SLASH)Models$(SLASH)MagneticModel.h CentralBody$(SLASH)Models$(SLASH)TiltedDipoleMagneticModel.h Disturbances$(SLASH)GravityFunctions.h Disturbances$(SLASH)SolarDisturbances.h Disturbances$(SLASH)ThirdBodyDisturbances.h ;
+
+# /*****************************************************************************
+# *     $Log: Jamfile,v $
+# *     Revision 1.3  2003/12/08 14:48:27  simpliciter
+# *     All new Jamfiles!
+# *
+# *     
+# *
+# ******************************************************************************/
+
+
+

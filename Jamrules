@@ -1,0 +1,78 @@
+##################################################
+# Jamrules file for OPENSESSAME
+#
+#       $Author: simpliciter $
+#       $Revision: 1.9 $
+#       $Date: 2004/06/08 13:16:06 $
+#
+############################################
+
+OPENSESSAME_LIBDIR = $(OPENSESSAME_ROOT)$(SLASH)lib ;
+OPENSESSAME_INCLUDEDIR = $(OPENSESSAME_ROOT)$(SLASH)include ;
+OPENSESSAME_BINDIR = $(OPENSESSAME_ROOT)$(SLASH)bin ;
+PFXLIB = libosessame_ ;
+
+OPENSESSAME_HDRS = $(OPENSESSAME_ROOT)$(SLASH)src $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)attitude $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)datahandling $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)dynamics $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)environment $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)orbit $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)rotation $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)matrix ;
+
+# Add OS dependendent libraries
+if $(MSVCNT)
+{
+   	ECHO "Compiler is Microsoft Visual C++" ;
+	CCFLAGS += /nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FD /GZ /c ;
+	C++FLAGS = $(CCFLAGS) ;
+	NOARSCAN ?= true ; 
+
+	LINKFLAGS += /D "WIN32" ; 
+
+	#SubInclude OPENSESSAME_ROOT src MSWindows_Dependent_Dir ;
+}
+else if $(UNIX)
+{
+	CC = gcc ;
+	C++ = g++ ;
+	ECHO "Compiler is" $(C++) ;
+	CCFLAGS += -Wno-deprecated ;
+	C++FLAGS = $(CCFLAGS) ;
+}
+
+
+
+
+rule Document
+{
+#	Depends $(1) : $(DOXYFILE) ;
+	Dox doc : $(DOXYFILE) ;
+}
+actions Dox
+{
+	doxygen $(2)
+}
+
+
+
+## Do not change the comments below - they will be added automatically by CVS
+#############################################################################
+# $Log: Jamrules,v $
+# Revision 1.9  2004/06/08 13:16:06  simpliciter
+# Changed explicit dependency on gcc-3.3, as that's the default gcc on most systems now.
+#
+# Revision 1.8  2003/12/09 00:58:54  simpliciter
+# Removed explicit /utils dir call.
+#
+# Revision 1.7  2003/12/08 16:49:18  simpliciter
+# Final fix for typhon compatibility.
+#
+# Revision 1.6  2003/12/08 15:00:42  simpliciter
+# Correct gcc version for typhon.
+#
+# Revision 1.5  2003/12/08 14:47:37  simpliciter
+# All new Jamfiles!
+#
+#
+#
+#############################################################################
+
+
+
+
+

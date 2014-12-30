@@ -1,0 +1,15 @@
+###########################################
+# Jamfile for the Camblas routines
+#
+# Author: xb70 (Troy B. Jones)
+# Revision: 6/29/2003
+###########################################
+
+# Location of this Jamfile
+SubDir OPENSESSAME_ROOT src matrix camblas ;
+
+# Compile the following sources to objects
+Objects dasum.c daxpy.c dcopy.c ddot.c dgemm.c dgemv.c dger.c dnrm2.c drot.c dscal.c dswap.c dsymv.c dsyr2.c dsyr2k.c dtrmm.c dtrmv.c ilaenv.c lsame.c s_cmp.c s_copy.c xerbla.c ;
+
+
+

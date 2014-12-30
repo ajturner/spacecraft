@@ -1,0 +1,46 @@
+############################################
+#
+# Jamfile for the CAMMatrix Library Objects
+#
+# $Author: simpliciter $
+# $Revision: 1.6 $
+# $Date: 2003/12/09 04:35:15 $
+###########################################
+
+
+# Location of this Jamfile
+SubDir OPENSESSAME_ROOT src matrix ;
+
+CAMMATRIX_HDRS = $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)matrix $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)matrix$(SLASH)camblas $(OPENSESSAME_ROOT)$(SLASH)src$(SLASH)matrix$(SLASH)camlapack ;
+
+FILELIST = arraybse.cpp arrayops.cpp arrayutl.cpp darray.cpp datahndl.cpp dbengnea.cpp dbengneb.cpp dmatrix.cpp matbse.cpp matutl.cpp mvaexit.cpp mvalngbase.cpp range.cpp rangetst1.cpp strctbse.cpp under.cpp vecbse.cpp vecutl.cpp camblas/blas.cpp camblas/dasum.c camblas/daxpy.c camblas/dcopy.c camblas/ddot.c camblas/dgemm.c camblas/dgemv.c camblas/dger.c camblas/dnrm2.c camblas/drot.c camblas/dscal.c camblas/dswap.c camblas/dsymv.c camblas/dsyr2.c camblas/dsyr2k.c camblas/dtrmm.c camblas/dtrmv.c camblas/ilaenv.c camblas/lsame.c camblas/s_cmp.c camblas/s_copy.c camblas/xerbla.c camlapack/d_lg10.c camlapack/d_sign.c camlapack/dgecon.c camlapack/dgeequ.c camlapack/dgerfs.c camlapack/dgesvx.c camlapack/dgetf2.c camlapack/dgetrf.c camlapack/dgetrs.c camlapack/dlabad.c camlapack/dlacon.c camlapack/dlacpy.c camlapack/dlamch.c camlapack/dlange.c camlapack/dlaqge.c camlapack/dlassq.c camlapack/dlaswp.c camlapack/dlatrs.c camlapack/drscl.c camlapack/dtrsm.c camlapack/dtrsv.c camlapack/i_dnnt.c camlapack/idamax.c camlapack/ilaenv.c camlapack/pow_di.c camlapack/s_cmp.c camlapack/s_copy.c ;
+
+Objects $(FILELIST) ;
+ObjectHdrs $(FILELIST) : $(CAMMATRIX_HDRS) ;
+
+LibraryFromObjects $(PFXLIB)matrix : arraybse.o arrayops.o arrayutl.o darray.o datahndl.o dbengnea.o dbengneb.o dmatrix.o matbse.o matutl.o mvaexit.o mvalngbase.o range.o rangetst1.o strctbse.o under.o vecbse.o vecutl.o camblas/blas.o camblas/dasum.o camblas/daxpy.o camblas/dcopy.o camblas/ddot.o camblas/dgemm.o camblas/dgemv.o camblas/dger.o camblas/dnrm2.o camblas/drot.o camblas/dscal.o camblas/dswap.o camblas/dsymv.o camblas/dsyr2.o camblas/dsyr2k.o camblas/dtrmm.o camblas/dtrmv.o camblas/ilaenv.o camblas/lsame.o camblas/s_cmp.o camblas/s_copy.o camblas/xerbla.o camlapack/d_lg10.o camlapack/d_sign.o camlapack/dgecon.o camlapack/dgeequ.o camlapack/dgerfs.o camlapack/dgesvx.o camlapack/dgetf2.o camlapack/dgetrf.o camlapack/dgetrs.o camlapack/dlabad.o camlapack/dlacon.o camlapack/dlacpy.o camlapack/dlamch.o camlapack/dlange.o camlapack/dlaqge.o camlapack/dlassq.o camlapack/dlaswp.o camlapack/dlatrs.o camlapack/drscl.o camlapack/dtrsm.o camlapack/dtrsv.o camlapack/i_dnnt.o camlapack/idamax.o camlapack/ilaenv.o camlapack/pow_di.o camlapack/s_cmp.o camlapack/s_copy.o ;
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)matrix$(SUFLIB) ;
+#InstallFile $(OPENSESSAME_INCLUDEDIR) : Matrix.h ;
+
+#SubInclude OPENSESSAME_ROOT src matrix camblas ;
+#SubInclude OPENSESSAME_ROOT src matrix camlapack ;
+
+
+# /*****************************************************************************
+# *     $Log: Jamfile,v $
+# *     Revision 1.6  2003/12/09 04:35:15  simpliciter
+# *     Includes all of the correct files now.  Needs to be edited for M$ Windows compatibility.
+# *
+# *     Revision 1.5  2003/12/09 00:59:55  simpliciter
+# *     New and improved.
+# *
+# *     Revision 1.4  2003/12/08 14:48:27  simpliciter
+# *     All new Jamfiles!
+# *
+# *     
+# *
+# ******************************************************************************/
+
+
+
