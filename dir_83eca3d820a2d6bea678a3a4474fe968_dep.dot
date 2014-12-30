@@ -1,0 +1,13 @@
+digraph "orbitstaterep" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_392744e470e3e5dbf93993e14232aa19 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="orbit" fontname="Helvetica", fontsize="10", URL="dir_392744e470e3e5dbf93993e14232aa19.html"]
+  dir_83eca3d820a2d6bea678a3a4474fe968 [shape=box, label="orbitstaterep", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_83eca3d820a2d6bea678a3a4474fe968.html"];
+  }
+  dir_40d7732de2983c682bb99d86585a563c [shape=box label="matrix" fillcolor="white" style="filled" color="red" URL="dir_40d7732de2983c682bb99d86585a563c.html"];
+  dir_c5d7a3edf722e865b8c8455d831524b2 [shape=box label="orbitframes" URL="dir_c5d7a3edf722e865b8c8455d831524b2.html"];
+  dir_83eca3d820a2d6bea678a3a4474fe968->dir_40d7732de2983c682bb99d86585a563c [headlabel="3", labeldistance=1.5 headhref="dir_000014_000002.html"];
+  dir_83eca3d820a2d6bea678a3a4474fe968->dir_c5d7a3edf722e865b8c8455d831524b2 [headlabel="1", labeldistance=1.5 headhref="dir_000014_000016.html"];
+}

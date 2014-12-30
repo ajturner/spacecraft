@@ -1,0 +1,8 @@
+digraph "O_SESSAME::Interpolator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="O_SESSAME::Interpolator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="O_SESSAME::LinearInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1LinearInterpolator.html",tooltip="Interpolates between a given set of data points to create a linear functional approximation.Works for either a single function, or Vector of functions (such as interpolating a state). "];
+}

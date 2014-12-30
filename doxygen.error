@@ -1,0 +1,954 @@
+warning: source ../src/test/ is not a readable file or directory... skipping.
+warning: source images/ is not a readable file or directory... skipping.
+warning: source ../src is not a readable file or directory... skipping.
+/Users/andr7059/Downloads/spacecraft/doc/Introduction.h:86: warning: multiple use of section label 'Requirements' while adding section, (first occurrence: /Users/andr7059/Downloads/spacecraft/doc/Intallation.h, line 9)
+/Users/andr7059/Downloads/spacecraft/src/environment/Disturbances/SolarDisturbances.h:43: warning: Invalid or missing cite label
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameECEF.h:27: warning: Found ';' while parsing initializer list! (doxygen could be confused by a macro call without semicolon)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:28: warning: Found ';' while parsing initializer list! (doxygen could be confused by a macro call without semicolon)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1351: warning: End of comment block while inside formula.
+/Users/andr7059/Downloads/spacecraft/src/utils/MathUtils.h:113: warning: reached end of file while inside a f$ block!
+The command that should end the block seems to be missing!
+
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeModels/QuaternionAngVelDynamics.h:2: warning: the name `AttituteDynamics_QuaternionAngVel.h' supplied as the second argument in the \file statement is not an input file
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/Models/TiltedDipoleMagneticModel.h:2: warning: the name `TiltedDipoleMagenticModel.h' supplied as the second argument in the \file statement is not an input file
+/Users/andr7059/Downloads/spacecraft/src/test/AttitudeSimulatorServer.cpp:2: warning: the name `HokiesatAttitudeSim.cpp' supplied as the second argument in the \file statement is not an input file
+/Users/andr7059/Downloads/spacecraft/src/utils/MathUtils.h:2: warning: the name `ssfMathUtils.h' supplied as the second argument in the \file statement is not an input file
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:42: warning: Example testAttitudeIntegration.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:43: warning: Example testPropagation.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/dynamics/CombinedNumericPropagator.h:26: warning: Example testPropagation.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/environment/Environment.h:103: warning: Example testPropagation.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/orbit/Orbit.h:55: warning: Example testPropagation.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/utils/Integrator.h:104: warning: Example testAttitudeIntegration.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/utils/Integrator.h:105: warning: Example testOrbitIntegration.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKuttaIntegrator.h:25: warning: Example testAttitudeIntegration.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKuttaIntegrator.h:26: warning: Example testOrbitIntegration.cpp was already documented. Ignoring documentation found here.
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeModels/QuaternionAngVelDynamics.h:34: warning: class `AttituteDynamics_QuaternionAngVel' for related function `QuaternionAngVelConvFunc' is not documented.
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:18: warning: no uniquely matching class member found for 
+  void CAMarrayBase::plot() const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:80: warning: no uniquely matching class member found for 
+  void CAMarrayBase::plot(int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:96: warning: no uniquely matching class member found for 
+  void CAMarrayBase::plot(int p_style, int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:108: warning: no uniquely matching class member found for 
+  void CAMarrayBase::plot(const CAMarrayBase &Ordinates) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:195: warning: no uniquely matching class member found for 
+  void CAMarrayBase::plot(const CAMarrayBase &Ordinates, int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:212: warning: no uniquely matching class member found for 
+  void CAMarrayBase::plot(const CAMarrayBase &Ordinates, int p_arg, int p_style) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:225: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour() const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:265: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(int nContour) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:271: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(long nContour) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:276: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(double increment) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:282: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:288: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(long nContour, double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:294: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(int nContour, double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:300: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(double increment, double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:306: warning: no uniquely matching class member found for 
+  void CAMarrayBase::contour(const CAMarrayBase &contourValues) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:369: warning: no uniquely matching class member found for 
+  void CAMarrayBase::surface() const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:409: warning: no uniquely matching class member found for 
+  void CAMarrayBase::surface(const CAMarrayBase &x, const CAMarrayBase &y) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:500: warning: no matching class member found for 
+  void CAMarrayBase::ordinateError(const CAMstructureBase &A)
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/arraygph.cpp:513: warning: documented symbol `void CAMarrayBase::plotDimensionError' was not declared or defined.
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:18: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::plot() const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:80: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::plot(int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:96: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::plot(int p_style, int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:108: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::plot(const CAMmatrixBase &Ordinates) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:195: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::plot(const CAMmatrixBase &Ordinates, int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:212: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::plot(const CAMmatrixBase &Ordinates, int p_arg, int p_style) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:225: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour() const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:265: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(int nContour) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:271: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(long nContour) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:276: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(double increment) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:282: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:288: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(long nContour, double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:294: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(int nContour, double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:300: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(double increment, double low_value, double high_value) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:306: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::contour(const CAMmatrixBase &contourValues) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:369: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::surface() const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:409: warning: no uniquely matching class member found for 
+  void CAMmatrixBase::surface(const CAMmatrixBase &x, const CAMmatrixBase &y) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:500: warning: no matching class member found for 
+  void CAMmatrixBase::ordinateError(const CAMstructureBase &A)
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/matgph.cpp:513: warning: documented symbol `void CAMmatrixBase::plotDimensionError' was not declared or defined.
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:21: warning: no uniquely matching class member found for 
+  void CAMvectorBase::plot() const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:46: warning: no uniquely matching class member found for 
+  void CAMvectorBase::plot(int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:62: warning: no uniquely matching class member found for 
+  void CAMvectorBase::plot(int p_style, int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:76: warning: no uniquely matching class member found for 
+  void CAMvectorBase::plot(const CAMvectorBase &Ordinates) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:119: warning: no uniquely matching class member found for 
+  void CAMvectorBase::plot(const CAMvectorBase &Ordinates, int p_arg) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:136: warning: no uniquely matching class member found for 
+  void CAMvectorBase::plot(const CAMvectorBase &Ordinates, int p_arg, int p_style) const
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:149: warning: no matching class member found for 
+  void CAMvectorBase::ordinateError(const CAMstructureBase &A)
+
+/Users/andr7059/Downloads/spacecraft/src/matrix/vecgph.cpp:162: warning: documented symbol `void CAMvectorBase::plotDimensionError' was not declared or defined.
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameECEF.cpp:15: warning: documented symbol `OrbitFrameECEF::OrbitFrameECEF' was not declared or defined.
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitmodels/TwoBodyDynamics.h:36: warning: class `TwoBodyDynamics' for related function `PositionVelocityConvFunc' is not documented.
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:238: warning: no uniquely matching class member found for 
+  Rotation O_SESSAME::Rotation::operator*(const Rotation &_rot2) const
+
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:245: warning: no uniquely matching class member found for 
+  Vector O_SESSAME::Rotation::operator*(const Vector &_vec2) const
+
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:253: warning: no uniquely matching class member found for 
+  Rotation O_SESSAME::Rotation::operator~() const
+
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:261: warning: no uniquely matching class member found for 
+  Rotation O_SESSAME::Rotation::operator+(const Rotation &_rot2) const
+
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.h:417: warning: class `Time' for related function `Now' is not documented.
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.h:439: warning: class `Time' for related function `tickTime' is not documented.
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.h:452: warning: class `Time' for related function `tock' is not documented.
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.h:467: warning: class `Time' for related function `DayofYear2YMD' is not documented.
+/Users/andr7059/Downloads/spacecraft/src/attitude/Attitude.h:51: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/attitude/Attitude.h:56: warning: included file testAttitudeIntegration.cpp is not found. Check your EXAMPLE_PATH
+/Users/andr7059/Downloads/spacecraft/src/dynamics/NumericPropagator.h:29: warning: included file testDynamics.cpp is not found. Check your EXAMPLE_PATH
+/Users/andr7059/Downloads/spacecraft/src/environment/Environment.h:156: warning: included file testEnvironment.cpp is not found. Check your EXAMPLE_PATH
+/Users/andr7059/Downloads/spacecraft/src/orbit/Orbit.h:57: warning: included file testOrbitIntegration.cpp is not found. Check your EXAMPLE_PATH
+<testPropagation.cpp>:3: warning: included file testPropagation.cpp is not found. Check your EXAMPLE_PATH
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.h:59: warning: included file testRotation.cpp is not found. Check your EXAMPLE_PATH
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:69: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameECEF.h:38: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFramePQW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameRSW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Plot.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1335: warning: Found unknown command `\bf'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1335: warning: Found unknown command `\bf'
+/Users/andr7059/Downloads/spacecraft/src/matrix/typehndl.h:101: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFramePQW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameRSW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Plot.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKutta.h:21: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKutta.h:21: warning: argument 'timeInput' of command @param is not found in the argument list of RungeKuttaSolve(Vector(*odeFunc)(const double &timeInput, const Vector &stateInput, const Matrix &constantsInput), const Vector &_initialConditions, const Matrix &_constants, const double &_timeInitial, const double &_timeFinal, const int &_numSteps)
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKutta.h:21: warning: argument 'stateInput' of command @param is not found in the argument list of RungeKuttaSolve(Vector(*odeFunc)(const double &timeInput, const Vector &stateInput, const Matrix &constantsInput), const Vector &_initialConditions, const Matrix &_constants, const double &_timeInitial, const double &_timeFinal, const int &_numSteps)
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKutta.h:21: warning: argument 'constantsInput' of command @param is not found in the argument list of RungeKuttaSolve(Vector(*odeFunc)(const double &timeInput, const Vector &stateInput, const Matrix &constantsInput), const Vector &_initialConditions, const Matrix &_constants, const double &_timeInitial, const double &_timeFinal, const int &_numSteps)
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKutta.h:33: warning: Found unknown command `\begin'
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKutta.h:39: warning: Found unknown command `\end'
+/Users/andr7059/Downloads/spacecraft/doc/CodingStandards.h:2: warning: unable to resolve reference to `mainpage' for \ref command
+/Users/andr7059/Downloads/spacecraft/doc/CommentStandards.h:2: warning: unable to resolve reference to `mainpage' for \ref command
+/Users/andr7059/Downloads/spacecraft/doc/Intallation.h:26: warning: explicit link request to '_bundle.zip' could not be resolved
+/Users/andr7059/Downloads/spacecraft/doc/Intallation.h:26: warning: unexpected command endverbatim
+/Users/andr7059/Downloads/spacecraft/doc/Intallation.h:29: warning: Found unknown command `\begin'
+/Users/andr7059/Downloads/spacecraft/doc/Intallation.h:29: warning: Found unknown command `\end'
+/Users/andr7059/Downloads/spacecraft/doc/Intallation.h:31: warning: Found unknown command `\begin'
+/Users/andr7059/Downloads/spacecraft/doc/Intallation.h:31: warning: Found unknown command `\end'
+/Users/andr7059/Downloads/spacecraft/doc/Intallation.h:34: warning: unexpected command endverbatim
+/Users/andr7059/Downloads/spacecraft/doc/Introduction.h:89: warning: included file requirements is not found. Check your EXAMPLE_PATH
+/Users/andr7059/Downloads/spacecraft/doc/Introduction.h:91: warning: Illegal command image as part of a <a>..</a> block
+/Users/andr7059/Downloads/spacecraft/doc/Tutorials.h:20: warning: unable to resolve reference to `ProgrammingTroubleshooting' for \ref command
+/Users/andr7059/Downloads/spacecraft/doc/UsingFramework.h:34: warning: unable to resolve reference to `Examples' for \ref command
+/Users/andr7059/Downloads/spacecraft/doc/UsingFramework.h:38: warning: explicit link request to 'RotationLibrary' could not be resolved
+/Users/andr7059/Downloads/spacecraft/doc/UsingFramework.h:45: warning: image file Open-SESSAME_Architecture.jpg is not found in IMAGE_PATH: assuming external image.
+/Users/andr7059/Downloads/spacecraft/doc/UsingFramework.h:46: warning: image file Open-SESSAME_Architecture.pdf is not found in IMAGE_PATH: assuming external image.
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeModels/QuaternionAngVelDynamics.h:47: warning: Found unknown command `\omega'
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeModels/QuaternionAngVelDynamics.h:45: warning: argument '_state' of command @param is not found in the argument list of AttituteDynamics_QuaternionAngVel(const ssfTime &_time, const Vector &_integratingState, Orbit *_Orbit, Attitude *_Attitude, const Matrix &_parameters, const Functor &_torqueFuncPtr)
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeModels/QuaternionAngVelDynamics.h:45: warning: argument '_pOrbit' of command @param is not found in the argument list of AttituteDynamics_QuaternionAngVel(const ssfTime &_time, const Vector &_integratingState, Orbit *_Orbit, Attitude *_Attitude, const Matrix &_parameters, const Functor &_torqueFuncPtr)
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeModels/QuaternionAngVelDynamics.h:45: warning: argument '_pAttitude' of command @param is not found in the argument list of AttituteDynamics_QuaternionAngVel(const ssfTime &_time, const Vector &_integratingState, Orbit *_Orbit, Attitude *_Attitude, const Matrix &_parameters, const Functor &_torqueFuncPtr)
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeModels/QuaternionAngVelDynamics.h:45: warning: The following parameters of AttituteDynamics_QuaternionAngVel(const ssfTime &_time, const Vector &_integratingState, Orbit *_Orbit, Attitude *_Attitude, const Matrix &_parameters, const Functor &_torqueFuncPtr) are not documented:
+  parameter '_integratingState'
+  parameter '_Orbit'
+  parameter '_Attitude'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/Disturbances/GravityFunctions.h:27: warning: image file images\TwoBody.jpg is not found in IMAGE_PATH: assuming external image.
+/Users/andr7059/Downloads/spacecraft/src/environment/Disturbances/GravityFunctions.h:28: warning: image file images\TwoBody.pdf is not found in IMAGE_PATH: assuming external image.
+/Users/andr7059/Downloads/spacecraft/src/environment/Disturbances/SolarDisturbances.h:35: warning: unable to resolve reference to `Vallado:97' for \cite command
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitmodels/TwoBodyDynamics.h:44: warning: argument '_state' of command @param is not found in the argument list of TwoBodyDynamics(const ssfTime &_time, const Vector &_integratingState, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_parameters, const Functor &_forceFunctorPtr)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitmodels/TwoBodyDynamics.h:44: warning: argument '_forceFuncPtr' of command @param is not found in the argument list of TwoBodyDynamics(const ssfTime &_time, const Vector &_integratingState, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_parameters, const Functor &_forceFunctorPtr)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitmodels/TwoBodyDynamics.h:44: warning: The following parameters of TwoBodyDynamics(const ssfTime &_time, const Vector &_integratingState, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_parameters, const Functor &_forceFunctorPtr) are not documented:
+  parameter '_integratingState'
+  parameter '_forceFunctorPtr'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFramePQW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameRSW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:21: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Interpolator.h:25: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/MathUtils.h:47: warning: argument '_Degrees' of command @param is not found in the argument list of O_SESSAME::Deg2DMS(const double &_Angle, double &Degrees, double &Minutes, double &Seconds)
+/Users/andr7059/Downloads/spacecraft/src/utils/MathUtils.h:47: warning: argument '_Minutes' of command @param is not found in the argument list of O_SESSAME::Deg2DMS(const double &_Angle, double &Degrees, double &Minutes, double &Seconds)
+/Users/andr7059/Downloads/spacecraft/src/utils/MathUtils.h:47: warning: argument '_Seconds' of command @param is not found in the argument list of O_SESSAME::Deg2DMS(const double &_Angle, double &Degrees, double &Minutes, double &Seconds)
+/Users/andr7059/Downloads/spacecraft/src/utils/MathUtils.h:47: warning: The following parameters of O_SESSAME::Deg2DMS(const double &_Angle, double &Degrees, double &Minutes, double &Seconds) are not documented:
+  parameter 'Degrees'
+  parameter 'Minutes'
+  parameter 'Seconds'
+/Users/andr7059/Downloads/spacecraft/src/matrix/typehndl.h:101: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/matrix/typehndl.h:101: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameECEF.h:38: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameECEF.h:38: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameECEF.h:37: warning: argument '_ApparentSiderealTime' of command @param is not found in the argument list of OrbitFrameECEF::GetRotationFromIJK() const
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameECEF.h:32: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:31: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFramePQW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFramePQW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameRSW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameRSW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Plot.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/matrix/Matrix.h:90: warning: Found unknown command `\bf'
+/Users/andr7059/Downloads/spacecraft/src/matrix/Matrix.h:90: warning: Found unknown command `\times'
+/Users/andr7059/Downloads/spacecraft/src/matrix/Matrix.h:91: warning: Found unknown command `\begin'
+/Users/andr7059/Downloads/spacecraft/src/matrix/Matrix.h:95: warning: Found unknown command `\end'
+/Users/andr7059/Downloads/spacecraft/src/matrix/Matrix.h:121: warning: Found unknown command `\cross'
+/Users/andr7059/Downloads/spacecraft/src/matrix/Matrix.h:121: warning: argument '_inVector' of command @param is not found in the argument list of O_SESSAME::crossP(const Vector &_v1, const Vector &_v2)
+/Users/andr7059/Downloads/spacecraft/src/matrix/Matrix.h:121: warning: The following parameters of O_SESSAME::crossP(const Vector &_v1, const Vector &_v2) are not documented:
+  parameter '_v1'
+  parameter '_v2'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: argument '_AttitudeObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: The following parameters of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject) are not documented:
+  parameter '_pAttitudeObject'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: argument '_OrbitObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: The following parameters of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject) are not documented:
+  parameter '_pOrbitObject'
+/Users/andr7059/Downloads/spacecraft/src/datahandling/History.h:111: warning: argument '_requestedTime' of command @param is not found in the argument list of O_SESSAME::History::SetInterpolator(Interpolator *_newInterpolator)
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:69: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:69: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:79: warning: argument '_Rot' of command @param is not found in the argument list of O_SESSAME::AttitudeState::SetState(const Rotation &_Rotation, const Vector &_AngVel, AttitudeFrame *_attFrame=NULL)
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:79: warning: argument '_pAttFrame' of command @param is not found in the argument list of O_SESSAME::AttitudeState::SetState(const Rotation &_Rotation, const Vector &_AngVel, AttitudeFrame *_attFrame=NULL)
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:79: warning: The following parameters of O_SESSAME::AttitudeState::SetState(const Rotation &_Rotation, const Vector &_AngVel, AttitudeFrame *_attFrame=NULL) are not documented:
+  parameter '_Rotation'
+  parameter '_attFrame'
+/Users/andr7059/Downloads/spacecraft/src/attitude/AttitudeState.h:105: warning: argument 'Rotation' of command @param is not found in the argument list of O_SESSAME::AttitudeState::GetRotation() const
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: argument '_AttitudeObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: The following parameters of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject) are not documented:
+  parameter '_pAttitudeObject'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: argument '_OrbitObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: The following parameters of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject) are not documented:
+  parameter '_pOrbitObject'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:321: warning: Found unknown command `\hat'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:322: warning: Found unknown command `\Phi'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:322: warning: Found unknown command `\f'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.h:88: warning: Found unknown command `\it'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:321: warning: Found unknown command `\hat'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:322: warning: Found unknown command `\Phi'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:322: warning: Found unknown command `\f'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:266: warning: argument '_MRP' of command @param is not found in the argument list of O_SESSAME::DirectionCosineMatrix::Set(const Vector &_EulerAxis, const Angle &_EulerAngle)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:266: warning: argument '_quat' of command @param is not found in the argument list of O_SESSAME::DirectionCosineMatrix::Set(const Vector &_EulerAxis, const Angle &_EulerAngle)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:659: warning: argument '_DCM2' of command @param is not found in the argument list of O_SESSAME::DirectionCosineMatrix::operator*(const Vector &_vec) const
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:659: warning: The following parameters of O_SESSAME::DirectionCosineMatrix::operator*(const Vector &_vec) const are not documented:
+  parameter '_vec'
+/Users/andr7059/Downloads/spacecraft/src/environment/Environment.cpp:102: warning: argument '_forceFunc' of command @param is not found in the argument list of O_SESSAME::Environment::AddTorqueFunction(const EnvFunction &_torqueFunc)
+/Users/andr7059/Downloads/spacecraft/src/environment/Environment.cpp:102: warning: The following parameters of O_SESSAME::Environment::AddTorqueFunction(const EnvFunction &_torqueFunc) are not documented:
+  parameter '_torqueFunc'
+/Users/andr7059/Downloads/spacecraft/src/utils/Functor.h:45: warning: Unsupported xml/html tag <Environment> found
+/Users/andr7059/Downloads/spacecraft/src/datahandling/History.h:111: warning: argument '_requestedTime' of command @param is not found in the argument list of O_SESSAME::History::SetInterpolator(Interpolator *_newInterpolator)
+/Users/andr7059/Downloads/spacecraft/src/utils/Integrator.h:114: warning: argument '_Orbit' of command @param is not found in the argument list of O_SESSAME::Integrator::Integrate(const vector< ssfTime > &_propTime, odeFunctor _FunctorPtr, const Vector &_initialConditions, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_constants, const Functor &_functorPtr)=0
+/Users/andr7059/Downloads/spacecraft/src/utils/Integrator.h:114: warning: argument '_Attitude' of command @param is not found in the argument list of O_SESSAME::Integrator::Integrate(const vector< ssfTime > &_propTime, odeFunctor _FunctorPtr, const Vector &_initialConditions, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_constants, const Functor &_functorPtr)=0
+/Users/andr7059/Downloads/spacecraft/src/utils/Integrator.h:114: warning: The following parameters of O_SESSAME::Integrator::Integrate(const vector< ssfTime > &_propTime, odeFunctor _FunctorPtr, const Vector &_initialConditions, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_constants, const Functor &_functorPtr)=0 are not documented:
+  parameter '_pOrbit'
+  parameter '_pAttitude'
+/Users/andr7059/Downloads/spacecraft/src/utils/Interpolator.h:48: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Interpolator.h:124: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Interpolator.h:71: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Interpolator.h:78: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Interpolator.h:85: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Interpolator.h:99: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/Keplerian.cpp:132: warning: argument '_Position' of command @param is not found in the argument list of O_SESSAME::Keplerian::SetPositionVelocity(const Vector &_PositionVelocity)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/Keplerian.cpp:147: warning: argument '_TargetOrbFrame' of command @param is not found in the argument list of O_SESSAME::Keplerian::SetPositionVelocity(const Vector &_Position, const Vector &_Velocity, const OrbitFrame &_OrbFrame)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/Keplerian.cpp:164: warning: argument '_Position' of command @param is not found in the argument list of O_SESSAME::Keplerian::SetPositionVelocity(const Vector &_PositionVelocity, const OrbitFrame &_OrbFrame)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/Keplerian.cpp:164: warning: argument '_TargetOrbFrame' of command @param is not found in the argument list of O_SESSAME::Keplerian::SetPositionVelocity(const Vector &_PositionVelocity, const OrbitFrame &_OrbFrame)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/Keplerian.cpp:212: warning: argument '_TargetOrbFrame' of command @param is not found in the argument list of O_SESSAME::Keplerian::GetPositionVelocity(Vector &_Position, Vector &_Velocity) const
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:51: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:75: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:83: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:90: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:98: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:108: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:816: warning: argument '_DCM' of command @param is not found in the argument list of O_SESSAME::ModifiedRodriguezParameters::ModifiedRodriguezParameters(const Quaternion &_qIn)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:816: warning: The following parameters of O_SESSAME::ModifiedRodriguezParameters::ModifiedRodriguezParameters(const Quaternion &_qIn) are not documented:
+  parameter '_qIn'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:949: warning: argument '_Sequence' of command @param is not found in the argument list of O_SESSAME::ModifiedRodriguezParameters::GetEulerAxisAngle(Vector &_EulerAxis, Angle &_EulerAngle) const
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:949: warning: The following parameters of O_SESSAME::ModifiedRodriguezParameters::GetEulerAxisAngle(Vector &_EulerAxis, Angle &_EulerAngle) const are not documented:
+  parameter '_EulerAxis'
+  parameter '_EulerAngle'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: argument '_AttitudeObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: The following parameters of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject) are not documented:
+  parameter '_pAttitudeObject'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: argument '_OrbitObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: The following parameters of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject) are not documented:
+  parameter '_pOrbitObject'
+/Users/andr7059/Downloads/spacecraft/src/datahandling/History.h:111: warning: argument '_requestedTime' of command @param is not found in the argument list of O_SESSAME::History::SetInterpolator(Interpolator *_newInterpolator)
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:63: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:70: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:84: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Plot.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Plot.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:50: warning: argument '_TargetOrbFrame' of command @param is not found in the argument list of O_SESSAME::PositionVelocity::SetPositionVelocity(const Vector &_Position, const Vector &_Velocity)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:56: warning: argument '_Position' of command @param is not found in the argument list of O_SESSAME::PositionVelocity::SetPositionVelocity(const Vector &_PositionVelocity)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:56: warning: argument '_TargetOrbFrame' of command @param is not found in the argument list of O_SESSAME::PositionVelocity::SetPositionVelocity(const Vector &_PositionVelocity)
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:56: warning: The following parameters of O_SESSAME::PositionVelocity::SetPositionVelocity(const Vector &_PositionVelocity) are not documented:
+  parameter '_PositionVelocity'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:73: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:81: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: argument '_AttitudeObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:87: warning: The following parameters of O_SESSAME::Propagator::SetAttitudeObject(Attitude *_pAttitudeObject) are not documented:
+  parameter '_pAttitudeObject'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: argument '_OrbitObject' of command @param is not found in the argument list of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject)
+/Users/andr7059/Downloads/spacecraft/src/dynamics/Propagator.h:92: warning: The following parameters of O_SESSAME::Propagator::SetOrbitObject(Orbit *_pOrbitObject) are not documented:
+  parameter '_pOrbitObject'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1335: warning: Found unknown command `\bf'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1335: warning: Found unknown command `\bf'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1077: warning: argument '_qMatrix' of command @param is not found in the argument list of O_SESSAME::Quaternion::Quaternion(const Vector &_qVector)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1077: warning: argument '_qMatrix' of command @param is not found in the argument list of O_SESSAME::Quaternion::Quaternion(const Vector &_qVector)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1077: warning: The following parameters of O_SESSAME::Quaternion::Quaternion(const Vector &_qVector) are not documented:
+  parameter '_qVector'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1173: warning: argument '_qMatrix' of command @param is not found in the argument list of O_SESSAME::Quaternion::Set(const Vector &_qVector)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1173: warning: argument '_qMatrix' of command @param is not found in the argument list of O_SESSAME::Quaternion::Set(const Vector &_qVector)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1173: warning: The following parameters of O_SESSAME::Quaternion::Set(const Vector &_qVector) are not documented:
+  parameter '_qVector'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1335: warning: Found unknown command `\bf'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:1335: warning: Found unknown command `\bf'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:31: warning: argument '_DCM' of command @param is not found in the argument list of O_SESSAME::Rotation::Rotation(const DirectionCosineMatrix &_Matrix)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:31: warning: The following parameters of O_SESSAME::Rotation::Rotation(const DirectionCosineMatrix &_Matrix) are not documented:
+  parameter '_Matrix'
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:50: warning: argument 'Axis' of command @param is not found in the argument list of O_SESSAME::Rotation::Rotation(const Vector &_Axis, const Angle &_Angle)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:50: warning: argument 'Angle' of command @param is not found in the argument list of O_SESSAME::Rotation::Rotation(const Vector &_Axis, const Angle &_Angle)
+/Users/andr7059/Downloads/spacecraft/src/rotation/Rotation.cpp:50: warning: The following parameters of O_SESSAME::Rotation::Rotation(const Vector &_Axis, const Angle &_Angle) are not documented:
+  parameter '_Axis'
+  parameter '_Angle'
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKuttaFehlbergIntegrator.h:35: warning: argument '_numSteps' of command @param is not found in the argument list of O_SESSAME::RungeKuttaFehlbergIntegrator::SetTolerance(const double &_Tolerance)
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKuttaFehlbergIntegrator.h:35: warning: The following parameters of O_SESSAME::RungeKuttaFehlbergIntegrator::SetTolerance(const double &_Tolerance) are not documented:
+  parameter '_Tolerance'
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKuttaIntegrator.cpp:68: warning: argument '_FunctorPtr' of command @param is not found in the argument list of O_SESSAME::RungeKuttaIntegrator::Integrate(const vector< ssfTime > &_propTime, odeFunctor _odeFunctorPtr, const Vector &_initialConditions, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_constants, const Functor &_functorPtr)
+/Users/andr7059/Downloads/spacecraft/src/utils/RungeKuttaIntegrator.cpp:68: warning: The following parameters of O_SESSAME::RungeKuttaIntegrator::Integrate(const vector< ssfTime > &_propTime, odeFunctor _odeFunctorPtr, const Vector &_initialConditions, Orbit *_pOrbit, Attitude *_pAttitude, const Matrix &_constants, const Functor &_functorPtr) are not documented:
+  parameter '_odeFunctorPtr'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\mbox'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\left'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\frac'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\left'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\left'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\frac'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\right'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\right'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:66: warning: Found unknown command `\right'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:67: warning: Found unknown command `\left'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:67: warning: Found unknown command `\frac'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:67: warning: Found unknown command `\right'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:68: warning: Found unknown command `\frac'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:68: warning: Found unknown command `\frac'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:68: warning: Found unknown command `\left'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:68: warning: Found unknown command `\frac'
+/Users/andr7059/Downloads/spacecraft/src/utils/Time.cpp:68: warning: Found unknown command `\right'
+error: Problems running latex. Check your installation or look for typos in _formulas.tex and check _formulas.log!
+error: Problems running dvips. Check your installation!
+/Users/andr7059/Downloads/spacecraft/doc/Mainpage.h:12: warning: unable to resolve reference to `ProgrammingRefresher' for \ref command
+/Users/andr7059/Downloads/spacecraft/doc/Mainpage.h:18: warning: image file images/sflogo.png is not found in IMAGE_PATH: assuming external image.
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Plot.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFramePQW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameRSW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/environment/CentralBody/CentralBody.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/LinearInterpolator.h:22: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrame.h:27: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameIJK.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFramePQW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameRSW.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitframes/OrbitFrameSEZ.h:20: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/OrbitState.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/OrbitStateRepresentation.h:30: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/orbit/orbitstaterep/PositionVelocity.h:26: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/utils/Plot.h:24: warning: Found unknown command `\detail'
+/Users/andr7059/Downloads/spacecraft/src/dynamics/AnalyticPropagator.h:23: warning: Found unknown command `\detail'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__AttitudeEquationsOfMotion.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__AttitudeEquationsOfMotion.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__StateHistory.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__StateHistory.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__DataHandling.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__DataHandling.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__AttitudeToolkit.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__AttitudeToolkit.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentModels.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentModels.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentToolkit.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentToolkit.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentForceFunctions.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentForceFunctions.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__OrbitEquationsOfMotion.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__OrbitEquationsOfMotion.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentTorqueFunctions.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__EnvironmentTorqueFunctions.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__ElementAccessFunctions.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__ElementAccessFunctions.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__OrbitFrames.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__OrbitFrames.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__OrbitStateRepresentation.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__OrbitStateRepresentation.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__MathUtils.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__MathUtils.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__Trigonometry.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__Trigonometry.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__IntegrationLibrary.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__IntegrationLibrary.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classCAMdoubleArray__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classCAMdoubleArray__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/group__OrbitToolkit.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/group__OrbitToolkit.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classCAMarrayBase__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classCAMarrayBase__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classCAMdoubleMatrix__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classCAMdoubleMatrix__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classCAMdoubleVector__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classCAMdoubleVector__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classCAMmatrixBase__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classCAMmatrixBase__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classCAMmvaGraphics__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classCAMmvaGraphics__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classOrbitFrame__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classOrbitFrame__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameECEF__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameECEF__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameIJK__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameIJK__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classCAMvectorBase__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classCAMvectorBase__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameNTW__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameNTW__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classOrbitFramePQW__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classOrbitFramePQW__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameRSW__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameRSW__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1AnalyticPropagator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1AnalyticPropagator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameSEZ__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classOrbitFrameSEZ__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1AttitudeHistory__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1AttitudeHistory__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1CombinedNumericPropagator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1CombinedNumericPropagator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1DirectionCosineMatrix__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1DirectionCosineMatrix__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1CentralBody__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1CentralBody__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1EarthCentralBody__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1EarthCentralBody__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1History__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1History__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Functor__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Functor__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Interpolator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Interpolator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1LinearInterpolator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1LinearInterpolator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Keplerian__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Keplerian__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Integrator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Integrator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1MagneticModel__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1MagneticModel__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1ObjectFunctor__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1ObjectFunctor__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1ModifiedRodriguezParameters__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1ModifiedRodriguezParameters__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1NumericPropagator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1NumericPropagator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1OrbitHistory__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1OrbitHistory__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1OrbitStateRepresentation__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1OrbitStateRepresentation__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Propagator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Propagator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Quaternion__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Quaternion__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1RungeKuttaFehlbergIntegrator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1RungeKuttaFehlbergIntegrator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1PositionVelocity__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1PositionVelocity__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1SpecificFunctor__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1SpecificFunctor__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1RungeKuttaIntegrator__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1RungeKuttaIntegrator__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1TiltedDipoleMagneticModel__inherit__graph.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1TiltedDipoleMagneticModel__inherit__graph.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/graph_legend.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/graph_legend.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_51b41c79feb9d14c84f22f30b1b7e676_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_51b41c79feb9d14c84f22f30b1b7e676_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_c55b91a86a3413cc678b3a37c553022c_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_c55b91a86a3413cc678b3a37c553022c_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_4ca258b1d0b0767ccb58a178d770d396_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_4ca258b1d0b0767ccb58a178d770d396_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_919b19a47b05518f77c25d870e9e25ca_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_919b19a47b05518f77c25d870e9e25ca_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_126135a1f00c92bca4c670eb9520e6bd_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_126135a1f00c92bca4c670eb9520e6bd_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_8cdd270684973aa78e1c3b0c83778912_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_8cdd270684973aa78e1c3b0c83778912_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_dba61f842e4221606b60f53ad7c2d896_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_dba61f842e4221606b60f53ad7c2d896_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_261425c25055ac4a48b7253766e15e1a_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_261425c25055ac4a48b7253766e15e1a_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_e68e8157741866f444e17edd764ebbae_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_e68e8157741866f444e17edd764ebbae_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_88013743cf0a19a9971b3b941e88bf54_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_88013743cf0a19a9971b3b941e88bf54_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_5d532859189d94b37937c3bee33a301a_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_5d532859189d94b37937c3bee33a301a_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_40d7732de2983c682bb99d86585a563c_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_40d7732de2983c682bb99d86585a563c_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_392744e470e3e5dbf93993e14232aa19_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_392744e470e3e5dbf93993e14232aa19_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_83eca3d820a2d6bea678a3a4474fe968_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_83eca3d820a2d6bea678a3a4474fe968_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_fa38dfbf581c89d494fbf1d870e4dc9f_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_fa38dfbf581c89d494fbf1d870e4dc9f_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_ff350d2ddee0b551d828135c7abfc65d_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_ff350d2ddee0b551d828135c7abfc65d_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_c5d7a3edf722e865b8c8455d831524b2_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_c5d7a3edf722e865b8c8455d831524b2_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_120ed4da3e3217b1e7fc0b4f48568e79_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_120ed4da3e3217b1e7fc0b4f48568e79_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_6460dfeb260effe26aa264c77f0bb1b9_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_6460dfeb260effe26aa264c77f0bb1b9_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/dir_313caf1132e152dd9b58bea13a4052ca_dep.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/dir_313caf1132e152dd9b58bea13a4052ca_dep.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_1.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_1.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_3.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_3.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_4.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_4.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_5.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_5.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_6.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_6.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_7.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_7.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_8.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_8.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_2.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_2.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_0.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_0.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_9.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_9.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_10.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_10.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_11.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_11.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_12.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_12.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_16.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_16.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_15.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_15.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_13.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_13.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_17.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_17.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_14.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_14.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_19.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_19.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_18.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_18.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_22.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_22.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_24.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_24.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_23.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_23.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_25.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_25.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_20.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_20.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_21.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_21.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_26.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_26.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_28.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_28.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_29.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_29.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_31.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_31.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_33.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_33.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_30.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_30.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_27.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_27.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_32.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_32.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_36.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_36.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_34.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_34.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_35.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_35.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_37.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_37.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_39.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_39.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_40.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_40.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_38.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_38.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_41.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_41.jpg"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/Users/andr7059/Downloads/spacecraft/html/inherit_graph_42.dot" -Tjpg -o "/Users/andr7059/Downloads/spacecraft/html/inherit_graph_42.jpg"'
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__AttitudeToolkit.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__AttitudeEquationsOfMotion.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__DataHandling.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__StateHistory.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__EnvironmentModels.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__EnvironmentToolkit.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__EnvironmentForceFunctions.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__EnvironmentTorqueFunctions.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__OrbitToolkit.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__OrbitEquationsOfMotion.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__OrbitFrames.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__ElementAccessFunctions.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__OrbitStateRepresentation.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__IntegrationLibrary.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__MathUtils.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/group__Trigonometry.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classCAMarrayBase__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classCAMdoubleArray__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classCAMdoubleMatrix__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classCAMdoubleVector__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classCAMmatrixBase__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classCAMmvaGraphics__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classCAMvectorBase__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classOrbitFrame__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classOrbitFrameECEF__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classOrbitFrameIJK__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classOrbitFrameNTW__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classOrbitFramePQW__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classOrbitFrameRSW__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classOrbitFrameSEZ__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1AnalyticPropagator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1AttitudeHistory__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1CentralBody__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1CombinedNumericPropagator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1DirectionCosineMatrix__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1EarthCentralBody__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Functor__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1History__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Integrator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Interpolator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Keplerian__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1LinearInterpolator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1MagneticModel__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1ModifiedRodriguezParameters__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1NumericPropagator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1ObjectFunctor__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1OrbitHistory__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1OrbitStateRepresentation__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1PositionVelocity__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Propagator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1Quaternion__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1RungeKuttaFehlbergIntegrator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1RungeKuttaIntegrator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1SpecificFunctor__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/classO__SESSAME_1_1TiltedDipoleMagneticModel__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_c55b91a86a3413cc678b3a37c553022c_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_51b41c79feb9d14c84f22f30b1b7e676_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_4ca258b1d0b0767ccb58a178d770d396_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_126135a1f00c92bca4c670eb9520e6bd_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_8cdd270684973aa78e1c3b0c83778912_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_dba61f842e4221606b60f53ad7c2d896_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_919b19a47b05518f77c25d870e9e25ca_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_e68e8157741866f444e17edd764ebbae_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_261425c25055ac4a48b7253766e15e1a_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_88013743cf0a19a9971b3b941e88bf54_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_5d532859189d94b37937c3bee33a301a_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_40d7732de2983c682bb99d86585a563c_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_ff350d2ddee0b551d828135c7abfc65d_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_392744e470e3e5dbf93993e14232aa19_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_c5d7a3edf722e865b8c8455d831524b2_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_6460dfeb260effe26aa264c77f0bb1b9_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_83eca3d820a2d6bea678a3a4474fe968_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_fa38dfbf581c89d494fbf1d870e4dc9f_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_120ed4da3e3217b1e7fc0b4f48568e79_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/dir_313caf1132e152dd9b58bea13a4052ca_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_3.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_4.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_5.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_6.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_7.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_8.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_9.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_10.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_11.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_12.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_13.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_14.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_15.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_16.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_17.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_18.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_19.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_20.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_21.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_22.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_23.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_24.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_25.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_26.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_27.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_28.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_29.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_30.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_31.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_32.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_33.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_34.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_35.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_36.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_37.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_38.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_39.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_40.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_41.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /Users/andr7059/Downloads/spacecraft/html/inherit_graph_42.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.

@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CAMvectorBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCAMvectorBase.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CAMdoubleVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCAMdoubleVector.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="O_SESSAME::ModifiedRodriguez\lParameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1ModifiedRodriguezParameters.html",tooltip="3x1 Modified Rodriguez Parameters attitude representation.Another method of specifying a rigid body a..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="O_SESSAME::Quaternion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1Quaternion.html",tooltip="The non-singular, redundant Euler parameter (quaternion) vector. "];
+}

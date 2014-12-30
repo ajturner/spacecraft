@@ -1,0 +1,501 @@
+\documentclass{article}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\pagestyle{empty}
+\begin{document}
+$ f(x)=\sin{x}$
+\pagebreak
+
+$x=0:2\pi $
+\pagebreak
+
+$\sin{}$
+\pagebreak
+
+$\bar{\bf q}_0 = [0,0,0,1]^{T}$
+\pagebreak
+
+$\omega_{0} = [0,0.1, -0.05]^{T} \frac{rad}{s}$
+\pagebreak
+
+$[100, 300, 150]$
+\pagebreak
+
+$Area=20 m^2$
+\pagebreak
+
+${\bf r}=[-5776.6, -157, 3496.9]^{T}$
+\pagebreak
+
+${\bf v} = [-2.595, -5.651, -4.513]^{T}$
+\pagebreak
+
+\[ \dot {\bar{\bf q}} = {Q}\left(\bar{\bf q}\right){\bf \omega} \]
+\pagebreak
+
+\[ = \frac{1}{2}\begin{bmatrix} {{\bf{q}}^{\times} + q_4 {\bf 1}} \\ { - {\bf{q}}^T } \\ \end{bmatrix} {\bf \omega} \]
+\pagebreak
+
+\[ \bf{I}\dot{\bf \omega} = \bf{g} - \omega \times \bf{I}\omega \]
+\pagebreak
+
+$\textbf{I}$
+\pagebreak
+
+$\omega$
+\pagebreak
+
+$\textbf{g}$
+\pagebreak
+
+\[ \omega_{1} = \omega_{01}\cos{\omega_{p}t} + \omega_{02}\sin{\omega_{p}t} + \frac{1}{I_{T}}\int^{t}_{0}{[g_{1}(\tau)\cos{(\omega_{p}(t-\tau))}+g_{2}(\tau)\sin{(\omega_{p}(t-\tau))}]d\tau} \]
+\pagebreak
+
+\[ \omega_{2} = -\omega_{01}\sin{\omega_{p}t} + \omega_{02}\cos{\omega_{p}t} + \frac{1}{I_{T}}\int^{t}_{0}{[-g_{1}(\tau)\sin{(\omega_{p}(t-\tau))}+g_{2}(\tau)\cos{(\omega_{p}(t-\tau))}]d\tau} \]
+\pagebreak
+
+\[ \omega_{3} = \omega_{03} \]
+\pagebreak
+
+$\left[\bar{\bf q},\bf{\omega}\right]^{T}$
+\pagebreak
+
+$\left[MOI(3\times3); MOI^{-1}(3\times3)\right]$
+\pagebreak
+
+$\left[\dot{\bar{\mathbf q}},\dot{\mathbf \omega}\right]^{T}$
+\pagebreak
+
+$\mu$
+\pagebreak
+
+\[ {\bf F}_{g} = - \frac{GMm}{r^{2}}\frac{{\bf r}}{r} \]
+\pagebreak
+
+${\bf F}_{g}$
+\pagebreak
+
+$M$
+\pagebreak
+
+$m$
+\pagebreak
+
+${\bf r}={\bf r}_{M}-{\bf r}_{m}$
+\pagebreak
+
+$G$
+\pagebreak
+
+$Gm_{\oplus}$
+\pagebreak
+
+$3.986\,004\,415\times 10^{5} \frac{km^{3}}{s^{2}}$
+\pagebreak
+
+${\bf r}$
+\pagebreak
+
+\[ {\bf T}_{gg} = 3\omega _c ^2 {\bf o_3} ^{\times} {\bf{I}}{\bf o_3} \]
+\pagebreak
+
+$\omega_c = 3\frac{\mu}{r^{3}}$
+\pagebreak
+
+$\mathbf{o_{3}}$
+\pagebreak
+
+$3^{rd}$
+\pagebreak
+
+$MOI; \mu$
+\pagebreak
+
+$p_{SR}$
+\pagebreak
+
+$4.51 \times 10^{-6}\frac{N}{m^{2}}$
+\pagebreak
+
+$c_{R}$
+\pagebreak
+
+\[ \vec{a}_{radiation} = -\frac{p_{SR}c_{R}A_{S}}{m}\frac{\vec{\bf{r}}_{\odot sat}}{\left|\vec{\bf{r}}_{\odot sat}\right|} \]
+\pagebreak
+
+$\vec{\bf{r}}_{\odot sat}$
+\pagebreak
+
+$A_{S}$
+\pagebreak
+
+\[ \tau_{min} = \frac{\left|\vec{\bf{r}}_{sat}\right|^{2}-\vec{\bf{r}}_{sat}\cdot\vec{\bf{r}}_{\odot}}{\left|\vec{\bf{r}}_{sat}\right|^{2} + \left|\vec{\bf{r}}_{\oplus}\right|^{2}-2\vec{\bf{r}}_{sat}\cdot\vec{\bf{r}}_{\odot}} \]
+\pagebreak
+
+\[ \mbox{Sunlight if } \tau_{min} < 0\mbox{ or }\tau_{min}>1 \]
+\pagebreak
+
+\[ \mbox{ or } \left|\vec{c}\left(\tau_{min}\right)\right|^{2} = \left(1-\tau_{min}\right)\left|\vec{\bf{r}}_{sat}\right|^{2}+\left(\vec{\bf{r}}_{sat}\cdot\vec{\bf{r}}_{\oplus}\right)\tau_{min}\geq 1.0 \]
+\pagebreak
+
+\[\begin{bmatrix} \left[r_{\odot sat_{x}}, r_{\odot sat_{y}}, r_{\odot sat_{z}}\right]^{T} \\ m, mass (kg) \\ p_{SR}, solar pressure (N/m^2) \\ c_{R}, reflectivity \\ A, Area (m^2) \end{bmatrix}\]
+\pagebreak
+
+$r_{\odot sat}$
+\pagebreak
+
+$\dot{x} = RHS(t, x)$
+\pagebreak
+
+$R^{IJK-ECEF}$
+\pagebreak
+
+$\vec{r}_{IJK} = R_{3}\left(-\theta_{AST}\right)\vec{r}_{ECEF}$
+\pagebreak
+
+$R^{ECEF-IJK}$
+\pagebreak
+
+$\vec{r}_{ECEF} = R_{3}\left(\theta_{AST}\right)\vec{r}_{IJK}$
+\pagebreak
+
+$R^{NTW-IJK}$
+\pagebreak
+
+${\bf r}_{IJK} = R_{3}(-\Omega)R_{1}(-i)R_{3}(-u)R_{3}(-\phi_{fpa}){\bf r}_{NTW}$
+\pagebreak
+
+$R^{IJK-NTW}$
+\pagebreak
+
+${\bf r}_{NTW} = R_{3}(\phi_{fpa})R_{3}(u)R_{1}(i)R_{3}(\Omega){\bf r}_{IJK}$
+\pagebreak
+
+$90^{\circ}$
+\pagebreak
+
+$R^{PQW-IJK}$
+\pagebreak
+
+${\bf r}_{IJK} = R_{3}\left(-\Omega\right)R_{1}\left(-i\right)R_{3}\left(-\omega\right){\bf r}_{ECEF}$
+\pagebreak
+
+$R^{IJK-PQW}$
+\pagebreak
+
+${\bf r}_{ECEF} = R_{3}\left(\omega\right)R_{1}\left(i\right)R_{3}\left(\Omega\right){\bf r}_{IJK}$
+\pagebreak
+
+$R^{SEZ-IJK}$
+\pagebreak
+
+${\bf r}_{IJK} = R_{3}\left(-\theta_{LST}\right)R_{2}\left(\theta_{LST}-\pi\right){\bf r}_{ECEF}$
+\pagebreak
+
+$R^{IJK-SEZ}$
+\pagebreak
+
+${\bf r}_{ECEF} = R_{2}\left(\pi-\theta_{LST}\right)R_{3}\left(\theta_{LST}\right){\bf r}_{IJK}$
+\pagebreak
+
+\[ \ddot{\vec{r}} = -\frac{\mu}{r^{2}}\frac{\vec{r}}{r}\]
+\pagebreak
+
+\[ \begin{bmatrix} \dot{\vec{r}}\\ \dot{\vec{v}} \end{bmatrix} = \begin{bmatrix} \vec{v}\\ -\frac{\mu}{\left|\vec{r}\right|^{3}}\vec{r} \end{bmatrix} \]
+\pagebreak
+
+$\left[\vec{r},\vec{v}\right]^{T}$
+\pagebreak
+
+$\left[\mu\right]$
+\pagebreak
+
+$\left[\dot{\vec{r}},\dot{\vec{v}}\right]^{T}$
+\pagebreak
+
+\[ {\bf} h = |{\bf r} \times {\bf v}| \]
+\pagebreak
+
+$\Omega$
+\pagebreak
+
+$\nu$
+\pagebreak
+
+$a$
+\pagebreak
+
+$e$
+\pagebreak
+
+$i$
+\pagebreak
+
+$\dot{meanMotion}$
+\pagebreak
+
+$\ddot{meanMotion}$
+\pagebreak
+
+$p$
+\pagebreak
+
+$p = a * (1-e^{2})$
+\pagebreak
+
+$n$
+\pagebreak
+
+$R^{31} = R^{32} * R^{21} \Rightarrow R^{32} = R^{31} - R^{21} = R^{32} * R^{21}^{T}/f$ @param _rot2 Rotation to be differenced with. @return rotation of difference between given rotations. */ Rotation Rotation::operator- (const Rotation& _rot2) const { Rotation rotOut(this->operator*(~_rot2)); return rotOut; } /////////////////////////////////////////////////////////////////////// // DirectionCosineMatrix Class /*! \brief Create a DCM equal to the identity matrix [1,0,0;0,1,0;0,0,1]. @return 3x3 Direction Cosine Matrix equal to the identity matrix. */ DirectionCosineMatrix::DirectionCosineMatrix():Matrix(DCM_SIZE, DCM_SIZE) { (*this) = eye(DCM_SIZE); } /*! \brief Create a copy of a DCM from an existing DCM. @param _DCM 3x3 Direction Cosine Matrix to be copied. */ DirectionCosineMatrix::DirectionCosineMatrix(const DirectionCosineMatrix& _DCM):Matrix(DCM_SIZE, DCM_SIZE) { Set(_DCM); } /*! \brief Create a copy of a DCM from an existing matrix of DCM values. @param _DCM 3x3 matrix of DCM values to be copied. */ DirectionCosineMatrix::DirectionCosineMatrix(const Matrix& _DCM):Matrix(DCM_SIZE, DCM_SIZE) { Set(_DCM); } /*! \brief Create a Direction Cosine Matrix (DCM) from Euler Angles. @param _EulerAngles 3x1 matrix of Euler Angles. [rad] @param _Sequence Euler angle rotation sequence. (ie 123, 213, 313, 321, etc). */ DirectionCosineMatrix::DirectionCosineMatrix(const Vector& _EulerAngles, const int& _Sequence):Matrix(DCM_SIZE, DCM_SIZE) { Set(_EulerAngles, _Sequence); } /*! \brief Create a Direction Cosine Matrix (DCM) from Euler Angles. @param _Angle1 first angles in Euler angle set. [rad] @param _Angle2 second angles in Euler angle set. [rad] @param _Angle3 third angles in Euler angle set. [rad] @param _Sequence Euler angle rotation sequence. (ie 123, 213, 313, 321, etc). */ DirectionCosineMatrix::DirectionCosineMatrix(const Angle& _Angle1, const Angle& _Angle2, const Angle& _Angle3, const int& _Sequence):Matrix(DCM_SIZE, DCM_SIZE) { Set(_Angle1, _Angle2, _Angle3, _Sequence); } /*! \brief Create a Direction Cosine Matrix (DCM) from an Euler Axis and rotation. @param _EulerAxis 3x1 Euler Axis vector ($
+\pagebreak
+
+$). @param _EulerAngle Angle rotation about axis ($
+\pagebreak
+
+$\hat{e}$
+\pagebreak
+
+$\Phi$
+\pagebreak
+
+\[ \bf{R} = \begin{bmatrix} e^{2}_1 \Phi + \cos{\phi} & e_1 e_2 \Phi + e_3\sin{\phi} & e_1 e_3 \Phi - e_2\sin{\phi}\\ e_2 e_1 \Phi - e_3\sin{\phi} & e^{2}_2 \Phi + \cos{\phi} & e_2 e_3 \Phi + e_1\sin{\phi}\\ e_3 e_1 \Phi + e_2\sin{\phi} & e_3 e_2 \Phi - e_1\sin{\phi} & e^{2}_3 \Phi + \cos{\phi} \end{bmatrix} \]
+\pagebreak
+
+$\Phi= 1 - \cos{\phi}$
+\pagebreak
+
+\[ \left[\bf{R}\left(\bf{\sigma}\right)\right] = \frac{1}{\left(1+\sigma^2\right)^2} \begin{bmatrix} 4\left(\sigma^{2}_1-\sigma^{2}_2-\sigma^{2}_3\right)+\Sigma^2 & 8\sigma_1\sigma_2+4\sigma_3\Sigma & 8\sigma_1\sigma_3-4\sigma_2\Sigma\\ 8\sigma_2\sigma_1-4\sigma_3\Sigma & 4\left(-\sigma^{2}_1+\sigma^{2}_2-\sigma^{2}_3\right)+\Sigma^2 & 8\sigma_2\sigma_3+4\sigma_1\Sigma 8\sigma_3\sigma_1+4\sigma_2\Sigma & 8\sigma_3\sigma_2-4\sigma_1\Sigma & 4\left(-\sigma^{2}_1-\sigma^{2}_2+\sigma^{2}_3\right)+\Sigma^2 \end{bmatrix} \]
+\pagebreak
+
+$\Sigma=1-\bf{\sigma}^T\bf{\sigma}$
+\pagebreak
+
+\[ \left[\bf{R}\left(\bf{\bar{q}}\right)\right] = \begin{bmatrix} 1-2(q_{2}^{2}+q_{3}^{2}) & 2\left(q_1 q_2 + q_4 q_3\right) & 2\left(q_1 q_3 - q_4 q_2\right)\\ 2\left(q_1 q_2 - q_4 q_3\right) & 1-2(q_{1}^{2}+q_{3}^{2}) & 2\left(q_2 q_3 + q_4 q_1\right)\\ 2\left(q_1 q_3 + q_4 q_2\right) & 2\left(q_2 q_3 - q_4 q_1\right) & 1-2(q_{1}^{2}+q_{2}^{2}) \end{bmatrix} \]
+\pagebreak
+
+\[ \cos\Phi = \frac{1}{2}\left[tr\left(R\right)-1\right] \]
+\pagebreak
+
+$\sin\Phi \ne 0$
+\pagebreak
+
+$\hat{\bf e}$
+\pagebreak
+
+\[ e1 = (A_{23} - A_{32})/(2\sin\Phi) e2 = (A_{31} - A_{13})/(2\sin\Phi) e3 = (A_{12} - A_{21})/(2\sin\Phi) \]
+\pagebreak
+
+\[R_{ij}^{norm} = \frac{R_{ij}}{\sum_{k=1}^{k=3}{R_{ik}}}\]
+\pagebreak
+
+\[ R_1\left(\theta\right) = \begin{bmatrix} 1 & 0 & 0\\ 0 & \cos{\theta} & \sin{\theta}\\ 0 & -\sin{\theta} & \cos{\theta} \end{bmatrix} \]
+\pagebreak
+
+\[ R_2\left(\theta\right) = \begin{bmatrix} \cos{\theta} & 0 & -\sin{\theta}\\ 0 & 1 & 0\\ \sin{\theta} & 0 & \cos{\theta} \end{bmatrix} \]
+\pagebreak
+
+\[ R_3\left(\theta\right) = \begin{bmatrix} \cos{\theta} & \sin{\theta} & 0\\ -\sin{\theta} & \cos{\theta} & 0\\ 0 & 0 & 1 \end{bmatrix} \]
+\pagebreak
+
+\[ \bf{\sigma} = \tan{\frac{\phi}{4}}\bf{\hat{e}} \]
+\pagebreak
+
+$\phi \rightarrow \pm 360^{\circ}$
+\pagebreak
+
+\[\sigma_i = \frac{\bf{q}_i}{1+q_4}\]
+\pagebreak
+
+\[ \bf{\sigma}^{S} = - \frac{1}{|\bf{\sigma}|^2}\bf{\sigma} \]
+\pagebreak
+
+$\bf{\sigma'}$
+\pagebreak
+
+$\bf{\sigma''}$
+\pagebreak
+
+\[ \bf{\sigma} = \frac{(1-|\bf{\sigma'}|^2)\bf{\sigma''}+(1-|\bf{\sigma''}|^2)\bf{\sigma'}-2\bf{\sigma''} \times \bf{\sigma'}}{1+|\bf{\sigma'}|^2|\bf{\sigma''}|^2-2\bf{\sigma'} \dot \bf{\sigma''}} \]
+\pagebreak
+
+$\bf{\sigma''} = \bf{\sigma} - \bf{\sigma'}$
+\pagebreak
+
+\[ \bf{\sigma''} = \frac{\left(1-\left|\bf{\sigma'}\right|^2\right)\bf{\sigma}-\left(1-\left|\bf{\sigma}\right|^2\right)\bf{\sigma'}+2\bf{\sigma} \times \bf{\sigma'}}{1+\left|\bf{\sigma'}\right|^2\left|\bf{\sigma}\right|^2+2\bf{\sigma'} \dot \bf{\sigma}} \]
+\pagebreak
+
+\[q_4 = \pm \frac{1}{2}\left(1+R_{11}+R_{22}+R_{33}\right)^{\frac{1}{2}}\]
+\pagebreak
+
+\[ \bf{q} = \frac{1}{4q_4} \begin{bmatrix} R_{23}-R{32} \\ R_{31}-R{13} \\ R_{12}-R{21} \end{bmatrix}\]
+\pagebreak
+
+\[ \bf{\bar{q}} = \begin{bmatrix} \bf{q} \\ q_4 \end{bmatrix} \]
+\pagebreak
+
+\[ \bf{q}_i = \hat{e}_i \sin{\frac{\Phi}{2}} q_4 = \cos{\frac{\Phi}{2}} \]
+\pagebreak
+
+\[ \bf{q}_i = \frac{2\sigma_i}{1+\sigma^2} q_4 = \frac{1-\sigma^2}{1+\sigma^2} \]
+\pagebreak
+
+$\theta_i$
+\pagebreak
+
+\[\Phi = 2\cos^{-1}{q_4} \hat{e}_i = \bf{q}_i\sin{\frac{\Phi}{2}}\]
+\pagebreak
+
+${\bf{\bar q}}^T {\bf{\bar q}}=1$\f. */ void Quaternion::Normalize() { /*! \todo Add Normalize() to Vector Class */ normalize(*this); return; } /*! \brief Determine the successive rotation from the summation of two quaternions. @param _quat2 Quaternion to be summed with. \par Equation: successive rotations of $
+\pagebreak
+
+$ and $
+\pagebreak
+
+$\bf{q'}$
+\pagebreak
+
+$\bf{q''}$
+\pagebreak
+
+\[ \begin{bmatrix} q_1 \\ q_2 \\ q_3 \\ q_4 \end{bmatrix} = \begin{bmatrix} -q'_4 & q'_4 & q'_3 & -q'_2\\ -q'_2 & -q'_3 & q'_4 & q'_1\\ -q'_3 & -q'_2 & -q'_1 & q'_4\\ q'_4 & q'_1 & q'_2 & q'_3 \end{bmatrix} \begin{bmatrix} q''_1 \\ q''_2 \\ q''_3 \\ q''_4 \end{bmatrix} \]
+\pagebreak
+
+\[ {\bf v}^{b} = {\bf R}^{ba}{\bf v}^{a} \]
+\pagebreak
+
+${\bf v}^{a}$
+\pagebreak
+
+${\bf v}^{b}$
+\pagebreak
+
+$\hat{\bf v}$
+\pagebreak
+
+$\mathcal{F}_{a}$
+\pagebreak
+
+$\mathcal{F}_{b}$
+\pagebreak
+
+${\bf R}^{ba}$
+\pagebreak
+
+\[ {\bf R}^{21} = \begin{bmatrix} \cos{\theta_{x_{2}x_{1}}} && \cos{\theta_{x_{2}y_{1}}} && \cos{\theta_{x_{2}z_{1}}}\\ \cos{\theta_{y_{2}x_{1}}} && \cos{\theta_{y_{2}y_{1}}} && \cos{\theta_{y_{2}z_{1}}}\\ \cos{\theta_{z_{2}x_{1}}} && \cos{\theta_{z_{2}y_{1}}} && \cos{\theta_{z_{2}z_{1}}}\end{bmatrix} \]
+\pagebreak
+
+$\cos{\theta_{x_{2}x_{1}}}$
+\pagebreak
+
+$x$
+\pagebreak
+
+$\mathcal{F}_{c}$
+\pagebreak
+
+\[ {\bf R}^{ca} = {\bf R}^{cb}{\bf R}^{ba} \]
+\pagebreak
+
+\[ {\bf \sigma} = \hat{\bf e}\tan{\frac{\Phi }{4}}. \]
+\pagebreak
+
+${\bf \sigma}^{S}$
+\pagebreak
+
+\[ {\bf \sigma}^{S} = -\frac{1}{|{\bf \sigma}^{2}}{\bf \sigma} \]
+\pagebreak
+
+$|{\bf \sigma}| > 1$
+\pagebreak
+
+${\bf{\bar q}}$
+\pagebreak
+
+$\bar{\bf q}=[{\bf q}^{T}, q_{4}]^{T}$
+\pagebreak
+
+$\Phi $
+\pagebreak
+
+\[{\bf{q}} = \hat{\bf e}\sin \frac{\Phi}{2}\]
+\pagebreak
+
+\[q_4 = \cos \frac{\Phi }{2}\]
+\pagebreak
+
+$\bar{\bf q}_{new}=\frac{\bar{\bf q}}{|\bar{\bf q}|}$
+\pagebreak
+
+$\bar{\bf q}=-\bar{\bf q}$
+\pagebreak
+
+$\dot{\bf x}=f(t,{\bf x})$
+\pagebreak
+
+$\dot{\bf x} = f\left(t,{\bf x}, {\bf P}, T(t, {\bf x})\right)$
+\pagebreak
+
+$t$
+\pagebreak
+
+${\bf x}$
+\pagebreak
+
+${\bf P}$
+\pagebreak
+
+$T(t, {\bf x})$
+\pagebreak
+
+$f$
+\pagebreak
+
+$T$
+\pagebreak
+
+\[\frac{d\bar{\bf q}}{dt} = \dot{\bar{\bf q}} \Rightarrow d\bar{\bf q} = \dot{\bar{\bf q}} dt\]
+\pagebreak
+
+\[ \bar{\bf q}(T) = \int^{T}_{0}{\dot{\bar{\bf q}}(t, \bar{\bf q}(T)) dt} \]
+\pagebreak
+
+$[q_1, q_2, q_3, q_4, \omega_1, \omega_2, \omega_3]^{T}$
+\pagebreak
+
+\[\begin{bmatrix} I_{11} & I_{12} & I_{13} \\ I_{21} & I_{22} & I_{23} \\ I_{31} & I_{32} & I_{33} \\ mass & drag area & 0 \end{bmatrix}\]
+\pagebreak
+
+\[ \begin{bmatrix} t_0 & x_{1,0} & x_{2,0} & ...\\ t_1 & x_{1,1} & x_{2,1} & ...\\ t_2 & x_{1,2} & x_{2,2} & ...\\ . & . & . & . \\ t_{final} & x_{1,f} & x_{2,f} & ... \end{bmatrix} \]
+\pagebreak
+
+$t_T$
+\pagebreak
+
+$x_{i,T}$
+\pagebreak
+
+\[\begin{bmatrix} x1(t1) & x2(t1) & x3(t1) & ... \\ x1(t2) & x2(t2) & x3(t2)& ... \\ x1(t3) & x2(t3) & x3(t3) & ... \\ ... & ... & ... & ... \\ \end{bmatrix}\]
+\pagebreak
+
+$ slope=\frac{y_2 - y_1}{x_2-x_1}\quad offset=y_2-slope * x_2 $
+\pagebreak
+
+$\dot{y} = f\left(t,x\right)$
+\pagebreak
+
+$f\left(t,x\right)$
+\pagebreak
+
+$\dot{\bf x} = f(t,{\bf x})$
+\pagebreak
+
+$t_0$
+\pagebreak
+
+$t_f$
+\pagebreak
+
+$\sum{ii^2}$
+\pagebreak
+
+\end{document}

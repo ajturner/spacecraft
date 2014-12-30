@@ -1,0 +1,30 @@
+###########################################
+# Dynamics Jamfile
+#
+# $Author: simpliciter $ 
+# $Revision: 1.3 $
+# $Date: 2003/12/08 14:48:27 $
+###########################################
+
+SubDir OPENSESSAME_ROOT src dynamics ;
+
+Objects Propagator.cpp NumericPropagator.cpp ;
+ObjectHdrs Propagator.cpp NumericPropagator.cpp : $(OPENSESSAME_HDRS) ;
+
+LibraryFromObjects $(PFXLIB)dynamics : Propagator$(SUFOBJ) NumericPropagator$(SUFOBJ) ;
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)dynamics$(SUFLIB) ;
+#InstallFile $(OPENSESSAME_INCLUDEDIR) : Propagator.h NumericPropagator.h ;
+
+
+# /*****************************************************************************
+# *     $Log: Jamfile,v $
+# *     Revision 1.3  2003/12/08 14:48:27  simpliciter
+# *     All new Jamfiles!
+# *
+# *     
+# *
+# ******************************************************************************/
+
+
+

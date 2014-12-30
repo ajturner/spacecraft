@@ -1,0 +1,11 @@
+digraph "kinematics" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  dir_5d532859189d94b37937c3bee33a301a [shape=box, label="kinematics", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5d532859189d94b37937c3bee33a301a.html"];
+  }
+  dir_fa38dfbf581c89d494fbf1d870e4dc9f [shape=box label="rotation" URL="dir_fa38dfbf581c89d494fbf1d870e4dc9f.html"];
+  dir_5d532859189d94b37937c3bee33a301a->dir_fa38dfbf581c89d494fbf1d870e4dc9f [headlabel="1", labeldistance=1.5 headhref="dir_000018_000019.html"];
+}

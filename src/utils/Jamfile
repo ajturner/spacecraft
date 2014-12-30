@@ -1,0 +1,45 @@
+###########################################
+#
+# Jamfile for the utils level directory 
+# 
+#
+# $Author: simpliciter $
+# $Revision: 1.6 $
+# $Date: 2003/12/08 16:48:36 $
+###########################################
+
+SubDir OPENSESSAME_ROOT src utils ;
+
+
+Objects LinearInterpolator.cpp RungeKuttaFehlbergIntegrator.cpp RungeKuttaIntegrator.cpp ;
+ObjectHdrs LinearInterpolator.cpp RungeKuttaFehlbergIntegrator.cpp RungeKuttaIntegrator.cpp : $(OPENSESSAME_HDRS) ;
+
+LibraryFromObjects $(PFXLIB)math : LinearInterpolator$(SUFOBJ) RungeKuttaFehlbergIntegrator$(SUFOBJ) RungeKuttaIntegrator$(SUFOBJ) ;
+
+Objects Plot.cpp Time.cpp TimeCompat.cpp ;
+ObjectHdrs Plot.cpp Time.cpp TimeCompat.cpp : $(OPENSESSAME_HDRS) ;
+
+LibraryFromObjects $(PFXLIB)utils : Plot$(SUFOBJ) Time$(SUFOBJ) TimeCompat$(SUFOBJ) ;
+
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)math$(SUFLIB) ;
+#InstallFile $(OPENSESSAME_INCLUDEDIR) : Integrator.h Interpolator.h LinearInterpolator.h MathUtils.h RungeKutta.h RungeKuttaFehlbergIntegrator.h RungeKuttaIntegrator.h ;
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)utils$(SUFLIB) ;
+##InstallFile $(OPENSESSAME_INCLUDEDIR) : Functor.h Plot.h Time.h ;
+
+
+# /*****************************************************************************
+# *     $Log: Jamfile,v $
+# *     Revision 1.6  2003/12/08 16:48:36  simpliciter
+# *     Fixed to include utils library.
+# *
+# *     Revision 1.5  2003/12/08 14:48:27  simpliciter
+# *     All new Jamfiles!
+# *
+# *     
+# *
+# ******************************************************************************/
+
+
+

@@ -1,0 +1,20 @@
+/Functor.h/1.10/Sat Oct 18 21:37:28 2003//
+/Integrator.h/1.10/Sat Oct 18 21:37:28 2003//
+/Interpolator.h/1.3/Fri Jun  6 00:34:47 2003//
+/Jamfile/1.6/Mon Dec  8 16:48:36 2003//
+/LinearInterpolator.cpp/1.3/Tue May 20 19:46:52 2003//
+/LinearInterpolator.h/1.2/Fri Jun  6 00:34:47 2003//
+/MathUtils.h/1.2/Thu May 22 03:00:07 2003//
+/Plot.cpp/1.4/Sat Oct 18 21:37:28 2003//
+/Plot.h/1.6/Sat Oct 18 21:37:28 2003//
+/RungeKutta.h/1.4/Sat Oct 18 21:37:28 2003//
+/RungeKuttaFehlbergIntegrator.cpp/1.5/Thu Jun  5 20:30:52 2003//
+/RungeKuttaFehlbergIntegrator.h/1.5/Thu Jun  5 20:09:14 2003//
+/RungeKuttaIntegrator.cpp/1.7/Thu May 22 02:59:15 2003//
+/RungeKuttaIntegrator.h/1.8/Thu May 22 02:59:15 2003//
+/Time.cpp/1.10/Sat Oct 18 22:02:11 2003//
+/Time.h/1.15/Sat Oct 18 21:54:44 2003//
+/TimeCompat.cpp/1.1/Sat Oct 18 21:37:29 2003//
+/math.pro/1.4/Sat Oct 18 21:37:29 2003//
+/utils.pro/1.4/Sat Oct 18 21:37:29 2003//
+D

@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="O_SESSAME::Integrator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1Integrator.html",tooltip="Interface class to the Integrator algorithm strategies.This class defines the functions that are requ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="O_SESSAME::RungeKuttaFehlberg\lIntegrator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1RungeKuttaFehlbergIntegrator.html",tooltip="Runge-Kutta-Fehlberg integrator. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="O_SESSAME::RungeKuttaIntegrator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1RungeKuttaIntegrator.html",tooltip="Implementation of a Runge-Kutta (Fourth Order) Integrator. "];
+}

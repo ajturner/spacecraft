@@ -1,0 +1,35 @@
+###########################################
+# Orbit Jamfile
+#
+# $Author: simpliciter $ 
+# $Revision: 1.4 $
+# $Date: 2003/12/08 14:48:27 $
+###########################################
+
+SubDir OPENSESSAME_ROOT src orbit ;
+
+### NOTE!  Lines that are currently commented out include the ECEF frame which currently does not compile.  Someone should fix this compile issue and then return to the complete lines of code!
+
+Objects Orbit.cpp OrbitState.cpp orbitframes$(SLASH)OrbitFrame.cpp orbitstaterep$(SLASH)Keplerian.cpp orbitstaterep$(SLASH)OrbitStateRepresentation.cpp orbitstaterep$(SLASH)PositionVelocity.cpp ;
+ObjectHdrs Orbit.cpp OrbitState.cpp orbitframes$(SLASH)OrbitFrame.cpp orbitstaterep$(SLASH)Keplerian.cpp orbitstaterep$(SLASH)OrbitStateRepresentation.cpp orbitstaterep$(SLASH)PositionVelocity.cpp : $(OPENSESSAME_HDRS) ;
+#Objects Orbit.cpp OrbitState.cpp orbitframes$(SLASH)OrbitFrame.cpp orbitframes$(SLASH)OrbitFrameECEF.cpp orbitstaterep$(SLASH)Keplerian.cpp orbitstaterep$(SLASH)OrbitStateRepresentation.cpp orbitstaterep$(SLASH)PositionVelocity.cpp ;
+#ObjectHdrs Orbit.cpp OrbitState.cpp orbitframes$(SLASH)OrbitFrame.cpp orbitframes$(SLASH)OrbitFrameECEF.cpp orbitstaterep$(SLASH)Keplerian.cpp orbitstaterep$(SLASH)OrbitStateRepresentation.cpp orbitstaterep$(SLASH)PositionVelocity.cpp : $(OPENSESSAME_HDRS) ;
+
+LibraryFromObjects $(PFXLIB)orbit : Orbit$(SUFOBJ) OrbitState$(SUFOBJ) orbitframes$(SLASH)OrbitFrame$(SUFOBJ) orbitstaterep$(SLASH)Keplerian$(SUFOBJ) orbitstaterep$(SLASH)OrbitStateRepresentation$(SUFOBJ) orbitstaterep$(SLASH)PositionVelocity$(SUFOBJ) ;
+#LibraryFromObjects $(PFXLIB)orbit : Orbit$(SUFOBJ) OrbitState$(SUFOBJ) orbitframes$(SLASH)OrbitFrame$(SUFOBJ) orbitframes$(SLASH)OrbitFrameECEF$(SUFOBJ) orbitstaterep$(SLASH)Keplerian$(SUFOBJ) orbitstaterep$(SLASH)OrbitStateRepresentation$(SUFOBJ) orbitstaterep$(SLASH)PositionVelocity$(SUFOBJ) ;
+
+InstallLib $(OPENSESSAME_LIBDIR) : $(PFXLIB)orbit$(SUFLIB) ;
+#InstallFile $(OPENSESSAME_INCLUDEDIR) : Orbit.h OrbitState.h orbitframes$(SLASH)OrbitFrame.h orbitframes$(SLASH)OrbitFrameEQW.h orbitframes$(SLASH)OrbitFrameIJK.h orbitframes$(SLASH)OrbitFrameNTW.h orbitframes$(SLASH)OrbitFramePQW.h orbitframes$(SLASH)OrbitFrameRSW.h orbitframes$(SLASH)OrbitFrameSEZ.h orbitmodels$(SLASH)TwoBodyDynamics.h orbitstaterep$(SLASH)Keplerian.h orbitstaterep$(SLASH)OrbitStateRepresentation.h orbitstaterep$(SLASH)PositionVelocity.h ;
+##InstallFile $(OPENSESSAME_INCLUDEDIR) : Orbit.h OrbitState.h orbitframes$(SLASH)OrbitFrame.h orbitframes$(SLASH)OrbitFrameECEF.h orbitframes$(SLASH)OrbitFrameEQW.h orbitframes$(SLASH)OrbitFrameIJK.h orbitframes$(SLASH)OrbitFrameNTW.h orbitframes$(SLASH)OrbitFramePQW.h orbitframes$(SLASH)OrbitFrameRSW.h orbitframes$(SLASH)OrbitFrameSEZ.h orbitmodels$(SLASH)TwoBodyDynamics.h orbitstaterep$(SLASH)Keplerian.h orbitstaterep$(SLASH)OrbitStateRepresentation.h orbitstaterep$(SLASH)PositionVelocity.h ;
+
+# /*****************************************************************************
+# *     $Log: Jamfile,v $
+# *     Revision 1.4  2003/12/08 14:48:27  simpliciter
+# *     All new Jamfiles!
+# *
+# *     
+# *
+# ******************************************************************************/
+
+
+

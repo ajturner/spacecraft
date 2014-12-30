@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="O_SESSAME::OrbitState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1OrbitState.html",tooltip="Encapsulation of an Orbit State, including its coordinate type and reference frame.The OrbitState class is an abstract representation of a current orbital state, including its position and velocity (in some OrbitStateRepresentation) and respective frame (OrbitFrame). Each instance of OrbitState is a snapshot of the spacecraft at an instant in time. "];
+}

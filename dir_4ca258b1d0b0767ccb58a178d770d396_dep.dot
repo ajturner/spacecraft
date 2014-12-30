@@ -1,0 +1,9 @@
+digraph "camblas" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_40d7732de2983c682bb99d86585a563c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="matrix" fontname="Helvetica", fontsize="10", URL="dir_40d7732de2983c682bb99d86585a563c.html"]
+  dir_4ca258b1d0b0767ccb58a178d770d396 [shape=box, label="camblas", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4ca258b1d0b0767ccb58a178d770d396.html"];
+  }
+}

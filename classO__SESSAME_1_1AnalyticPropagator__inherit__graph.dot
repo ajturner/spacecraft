@@ -1,0 +1,8 @@
+digraph "O_SESSAME::AnalyticPropagator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="O_SESSAME::AnalyticPropagator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="O_SESSAME::Propagator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1Propagator.html",tooltip="Encapsulation of the propagation of the spacecraft dynamics (attitude, orbital, etc.)The propagator is used to tie together the various spacecraft dynamics that are desired to be propagated. The user has the ability to set the time derivative equations, integrators, parameters, etc. as necessary. Furthermore, the Propagator class can be derived for more functionality. "];
+}

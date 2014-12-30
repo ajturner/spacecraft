@@ -1,0 +1,28 @@
+############################################
+# Top level Jamfile for OSESSAME
+# 
+#	$Author: simpliciter $
+#	$Revision: 1.2 $
+#	$Date: 2003/12/08 14:47:37 $
+#
+############################################
+
+# This SubDir defines the project root directory
+SubDir OPENSESSAME_ROOT ;
+
+# Only include the next level down in the tree
+SubInclude OPENSESSAME_ROOT src ;
+
+
+## Do not change the comments below - they will be added automatically by CVS
+#############################################################################
+# $Log: Jamfile,v $
+# Revision 1.2  2003/12/08 14:47:37  simpliciter
+# All new Jamfiles!
+#
+#
+#
+#############################################################################
+
+
+

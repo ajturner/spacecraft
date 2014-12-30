@@ -1,0 +1,8 @@
+digraph "O_SESSAME::SpecificFunctor"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="O_SESSAME::SpecificFunctor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="O_SESSAME::Functor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classO__SESSAME_1_1Functor.html",tooltip="Abstract class to hold the pointer to an force calculating functor.A Function Object, or Functor (the two terms are synonymous) is simply any object that can be called as if it is a function. It is used to define a call-back function that evaluates any algorithm that takes the defined inputs and returns a vector of values. Examples of usage include evaluating a disturbance force or torque given the current time, orbit state, and attitude state. The returned vector will then be the 3 forces (or torques). "];
+}

@@ -1,0 +1,18 @@
+#
+#  Make file for sample programs
+#  
+
+all : mvasamp1.o mvasamp2.o mvasamp3.o
+
+
+mvasamp1.o : 
+	CC mvasamp1.cpp -L. -lcammva -o mvasamp1
+
+mvasamp2.o : 
+	CC mvasamp2.cpp  -L. -lcammva -o mvasamp2
+
+mvasamp3.o : 
+	CC mvasamp3.cpp -L. -lcammva -o mvasamp3
+
+
+

@@ -1,0 +1,12 @@
+###########################################
+# Jamfile for Camlapack routines
+#
+# Author: xb70 (Troy B. Jones)
+# Revision: 6/29/2003
+###########################################
+
+# Location of this jamfile 
+SubDir OPENSESSAME_ROOT src matrix camlapack ;
+
+# Compile the following sources into objects
+Objects d_lg10.c d_sign.c dgecon.c dgeequ.c dgerfs.c dgetf2.c dgetrf.c dgetrs.c dlabad.c dlacon.c dlacpy.c dlamch.c dlange.c dlaqge.c dlassq.c dlaswp.c dlatrs.c drscl.c dtrsm.c dtrsv.c i_dnnt.c idamax.c ilaenv.c pow_di.c dgesvx.c ; 

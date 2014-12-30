@@ -1,0 +1,10 @@
+OPEN-SESSAME Version 1.0
+
+Please read the installation section of the manual 
+(http://spacecraft.sourceforge.net/install.html) for instructions.
+
+Make sure to have QTDIR set to your local QT installation:
+# export QTDIR=/usr/share/qt/
+
+--------
+Andrew J. Turner (19 May 2003)
